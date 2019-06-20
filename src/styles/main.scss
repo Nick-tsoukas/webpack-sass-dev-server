@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
+
+$green:#16ffbd;
+$blue: #3D4EC1;
+$font : 'Hind Siliguri', sans-serif;
+
+html,body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font;
+}
+
+body {
+    background-color: $green;
+}
+
+header {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 60px;
+    padding: 0 3em;
+    h1 {
+        margin: 0;
+    }
+}
+
+.header_logo {
+    font-size: 1.8em;
+}
+
+.main_content {
+    padding: 0 3em;
+}
